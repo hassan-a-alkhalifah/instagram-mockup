@@ -80,6 +80,7 @@
 }
 .username {
   font-weight: bold;
+  font-size: 14px;
 }
 .location {
   font-size: 12px;
@@ -95,9 +96,61 @@
   color: #999;
 }
 #right-sidebar {
-  background-color: white;
   width: 300px;
+  margin-left: 20px;
+}
+#right-sidebar hr {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .right-sidebar-wrapper {
   position: fixed;
+  width: 300px;
+}
+.user-display-panel {
+  display: flex;
+  align-items: center;
+}
+.user-display-avatar, .user-display-name {
+  display: inline-block;
+}
+.user-display-avatar {
+  margin: 6px;
+}
+.user-display-name p {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.user-display-name .andmore {
+  font-size: 12px;
+}
+.stories-container {
+  display: flex;
+  justify-content: space-between;
+}
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  overflow: scroll;
+  height: 306px;
+}
+.user-list-item {
+  display: flex;
+  align-items: center;
+  display: block;
+}
+.right-sidebar-footer ul {
+  list-style-type: disc;
+}
+/* .right-sidebar-footer ul:nth-child(1) {
+  list-style-type: none;
+} */
+.right-sidebar-footer li {
+  display: inline-block
+}
+.disclaimer {
+  color: #c7c7c7;
+  font-size: 11px;
 }

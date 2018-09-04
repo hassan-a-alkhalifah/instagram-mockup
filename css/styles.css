@@ -1,0 +1,103 @@
+#header-container {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.0975);
+  width: 100%;
+  background-color: white;
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1010px;
+}
+.header-object {
+  margin: 25px;
+}
+#search-bar {
+  width: 199px;
+  border: solid 1px #dbdbdb;
+  background-color: #fafafa;
+  padding: 1px;
+  position: relative;
+}
+#search-bar img{
+  position: absolute;
+  top: 5px;
+  left: 40px;
+}
+#search-bar p{
+  margin: 0 0 0 80px;
+  color: lightgrey;
+}
+#main-content-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  margin-top: 100px;
+}
+#main-content-container p {
+
+}
+#new-posts-container {
+  width: 602px;
+}
+.new-post {
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.new-post-avatar, .new-post-metadata {
+  display: inline-block;
+}
+.new-post-avatar {
+  margin-right: 10px;
+}
+.new-post-metadata p {
+  margin-bottom: 0;
+}
+.card-body {
+  padding: 0;
+}
+.card-footer {
+  background-color: white;
+}
+.card-footer p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.footer-icon-container, .comment-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+.username {
+  font-weight: bold;
+}
+.location {
+  font-size: 12px;
+}
+.andmore {
+  color: #999;
+}
+.timestamp {
+  font-size: 10px;
+  color: #999
+}
+.comment {
+  color: #999;
+}
+#right-sidebar {
+  background-color: white;
+  width: 300px;
+}
+.right-sidebar-wrapper {
+  position: fixed;
+}
